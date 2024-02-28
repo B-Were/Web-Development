@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta  name = "viewport" content= "width=device-width, initial-scale=1.0">
+        <title>HTML images and links</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            h1, h2, h3 {
+                color: #333;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                border: 2px solid #ddd;
+                border-radius: 8px;
+                margin: 10px;
+            }
+            ul{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                background-color: #f1f1f1;
+                overflow: hidden;
+            }
+            figcaption{
+                text-decoration: underline;
+            }
+            li {
+                display: inline;
+                margin-right: 20px;
+            }
+            a {
+                text-decoration: none;
+                color: #333;
+            }
+            footer{
+                text-align: center;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+
+        <header>
+            <h1>TECH, NATURE, AND FOOD.</h1>
+        </header>
+
+        <section id="home">
+           <h2>Welcome to my website!</h2>
+           <p>Explore the exciting world of technology.</p>
+           <a href = "https://thenextweb.com/" target = "_blank"><img src="tech.jpeg" alt = "Technology Image" width = "350px" height="300px"></a>
+        </section>
+
+        <section id = "gallery">
+            <h2>Nature Gallery</h2>
+            <div>
+                <a href = "https://ncx.com/" target = "_blank"><img src = "trees.jpeg" alt = "Tree Image" width = "350px" height="300px"></a>
+                <a href = "https://www.wcs.org/" target = "_blank"><img src = "hills.jpeg"  alt = "Hills in nature" width = "350px" height="300px"></a>
+                <a href = "https://www.nature.org/en-us/" target = "_blank"><img src = "lake.jpeg"  alt = "Lake" width = "350px" height = "300px"></a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Food Menu</h2>
+            <ul>
+                <figure>
+                    <li><a href = "https://kfc.ke/" target = "_blank"><img src="french_fries.jpeg" alt="French Fries" width="350px" height="300px"></a></li>
+                    <figcaption>French Fries with Ketchup</figcaption>
+                </figure>
+
+                <figure>
+                    <li><a href="https://www.mcdonalds.com/us/en-us.html" target="_blank"><img src="burger.jpeg" alt="Burger" width="350px" height="300px"></a></li>
+                    <figcaption>Burger</figcaption>
+                </figure>
+
+                <figure>
+                    <li><a href="https://www.subway.com/en-us" target="_blank"><img src="rice.jpeg" alt="Rice" width="350px" height="300px"></a></li>
+                    <figcaption>Rice</figcaption>
+                </figure>   
+                
+                <figure>
+                    <li><a href="https://pizzainn.co.ke/" target="_blank"><img src="pizza.jpeg" alt="Pizza" width="350px" height="300px"></a></li>
+                    <figcaption>Pizza</figcaption>
+                </figure>
+
+                <figure>
+                    <li><a href="https://www.dairyqueen.com/en-us/" target="_blank"><img src="ice_cream.jpeg" alt="Ice Cream" width="350px" height="300px"></a></li>
+                    <figcaption>Ice Cream</figcaption>
+                </figure>
+
+            </ul>
+
+        </section>
+
+        <footer>
+            <p>&copy; Brian Were | February 2024 | All Rights Reserved.</p>
+        </footer>
+
+    </body>
+</html>
